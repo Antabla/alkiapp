@@ -44,6 +44,8 @@ import { RentalEditComponent} from './pages/rental-edit/rental-edit.component';
 import { RentalListComponent} from './pages/rental-list/rental-list.component';
 import { StudentEditComponent} from './pages/student-edit/student-edit.component';
 import { StudentListComponent} from './pages/student-list/student-list.component';
+import { UserEditComponent} from './pages/user-edit/user-edit.component';
+import { UserListComponent} from './pages/user-list/user-list.component';
 
 /* END MY VIEWS IMPORT */
 
@@ -71,6 +73,8 @@ const routes: Routes = [
     { path: 'rentals',  loadChildren: './pages/rental-list/rental-list.module#RentalListModule' , canActivate: [AuthGuard] },
     { path: 'students/:id',  loadChildren: './pages/student-edit/student-edit.module#StudentEditModule' , canActivate: [AuthGuard] },
     { path: 'students',  loadChildren: './pages/student-list/student-list.module#StudentListModule' , canActivate: [AuthGuard] },
+    { path: 'users/:id',  loadChildren: './pages/user-edit/user-edit.module#UserEditModule' , canActivate: [AuthGuard] },
+    { path: 'users',  loadChildren: './pages/user-list/user-list.module#UserListModule' , canActivate: [AuthGuard] },
 
  /* END MY VIEWS */
 

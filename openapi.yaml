@@ -1194,6 +1194,7 @@ components:
         - 5df3033da4f4b55911b3f220
         - 5df30345a4f4b55911b3f22a
         - 5df3034fa4f4b55911b3f234
+        - 5df30ea5a4f4b55911b3f23e
       x-skaffolder-roles: []
     - x-skaffolder-id: 5df30345a4f4b55911b3f224
       x-skaffolder-name: HomeEdit
@@ -1290,4 +1291,28 @@ components:
       x-skaffolder-nesteds: 
       x-skaffolder-links: 
         - 5df3032fa4f4b55911b3f210
+      x-skaffolder-roles: []
+    - x-skaffolder-id: 5df30ea5a4f4b55911b3f23d
+      x-skaffolder-name: UserEdit
+      x-skaffolder-url: /users/{id}
+      x-skaffolder-template: Edit_Crud
+      x-skaffolder-resource: 5df2ffcca4f4b55911b3f159
+      x-skaffolder-services: 
+        - 5df2ffcca4f4b55911b3f15f
+        - 5df2ffcca4f4b55911b3f162
+        - 5df2ffcca4f4b55911b3f15d
+      x-skaffolder-nesteds: 
+      x-skaffolder-links: 
+      x-skaffolder-roles: []
+    - x-skaffolder-id: 5df30ea5a4f4b55911b3f23e
+      x-skaffolder-name: UserList
+      x-skaffolder-url: /users
+      x-skaffolder-template: List_Crud
+      x-skaffolder-resource: 5df2ffcca4f4b55911b3f159
+      x-skaffolder-services: 
+        - 5df2ffcca4f4b55911b3f15e
+        - 5df2ffcca4f4b55911b3f164
+      x-skaffolder-nesteds: 
+      x-skaffolder-links: 
+        - 5df30ea5a4f4b55911b3f23d
       x-skaffolder-roles: []
